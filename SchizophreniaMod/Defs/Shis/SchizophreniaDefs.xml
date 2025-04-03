@@ -1,0 +1,21 @@
+
+  <!-- ========== Нервные срывы ========== -->
+  <MentalBreakDef>
+    <defName>SchizoBreak_AnomalyObsession</defName>
+    <label>маниакальное изучение аномалии</label>
+    <description>{0} одержимо исследует ближайшую аномалию, игнорируя опасность.</description>
+    <workerClass>MentalBreakWorker_AnomalyInteraction</workerClass>
+    <requiredTrait>Schizophrenia</requiredTrait>
+    <baseCommonality>2.0</baseCommonality>
+  </MentalBreakDef>
+
+  <MentalBreakDef>
+    <defName>SchizoBreak_Screaming</defName>
+    <label>истерический крик</label>
+    <description>{0} кричит, пугая окружающих.</description>
+    <workerClass>MentalBreakWorker_Scream</workerClass>
+    <mentalStateClass>MentalState_Wander</mentalStateClass>
+    <actionDef>Scream</actionDef>
+    <intervalTicks>200</intervalTicks>
+  </MentalBreakDef>
+</Defs>
