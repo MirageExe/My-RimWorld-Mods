@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraitDef>
+    <defName>Schizophrenia</defName>
+    <label>шизофрения</label>
+    <description>Персонаж слышит голоса и страдает от нарушенного восприятия реальности.</description>
+    <commonality>0.3</commonality>
+    <degreeDatas>
+      <li>
+        <degree>Schizophrenia</degree>
+        <label>шизофрения</label>
+        <statOffsets>
+          <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+          <PsychicSensitivity>0.25</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+</Defs>

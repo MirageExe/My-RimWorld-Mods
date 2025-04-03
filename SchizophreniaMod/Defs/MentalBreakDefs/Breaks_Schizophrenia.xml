@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MentalBreakDef>
+    <defName>SchizoBreak</defName>
+    <label>шизофренический эпизод</label>
+    <workerClass>MentalBreakWorker_Random</workerClass>
+    <defName>baseLabel>шизофренический эпизод</baseLabel>
+    <baseDescription>{0} переживает острый психотический эпизод.</baseDescription>
+    <requiredTrait>Schizophrenia</requiredTrait>
+    <randomSubBreaks>
+      <li>
+        <defName>HideInRoom</defName>
+        <weight>1</weight>
+      </li>
+      <li>
+        <defName>CorpseObsession</defName>
+        <weight>1</weight>
+      </li>
+    </randomSubBreaks>
+  </MentalBreakDef>
+</Defs>

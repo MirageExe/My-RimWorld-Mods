@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Голоса -->
+  <ThoughtDef>
+    <defName>SchizoVoicesPleasant</defName>
+    <label>приятные голоса</label>
+    <description>Голоса шепчут что-то успокаивающее.</description>
+    <effect>Happy</effect>
+    <stackLimit>1</stackLimit>
+    <durationDays>0.5</durationDays>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <stages>
+      <li>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Добавьте аналогично остальные 5 вариантов голосов -->
+</Defs>
